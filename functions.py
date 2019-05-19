@@ -25,3 +25,9 @@ print(tip(10, 25))
 # should print 2.5
 print(tip(0, 100))
 # should print 0.0
+
+def win_percentage(wins,losses):
+  return wins / (wins + losses) * 100
+
+# this function works because in params () wins and losses are 
+#added to make the resulting number and multiple * 100 or order of operations would cause an issue
