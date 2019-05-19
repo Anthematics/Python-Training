@@ -40,3 +40,10 @@ print(dog_years("Lola", 16))
 # should print "Lola, you are 112 years old in dog years"
 print(dog_years("Baby", 0))
 # should print "Baby, you are 0 years old in dog years"
+
+# The function should return the remainder of twice num1 divided by half of num2.
+def remainder(num1,num2):
+	return (num1 *2 ) % (num2/2)
+
+print(remainder(15, 14))
+
