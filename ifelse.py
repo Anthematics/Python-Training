@@ -18,3 +18,7 @@ def graduation_reqs(credits):
     return "no"
   
 print(graduation_reqs(120))
+
+def graduation_mailer(gpa,credits):
+  if gpa >= 2.0 or credits >= 120:
+    return True
