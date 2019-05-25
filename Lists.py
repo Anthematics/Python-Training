@@ -36,7 +36,7 @@ subjects.append("computer science")
 
 grades.append(100)
 
-gradebook = list(zip(subjects,grades))
+gradebook = list(zip(subjects,grades)) # if you write it as zip(subjects,grades) it will no longer be a list object to be added to hence the list(zip(var1,var2)) format
 
 gradebook.append(("visual arts", 93))
 
