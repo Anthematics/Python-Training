@@ -41,3 +41,5 @@ gradebook = list(zip(subjects,grades)) # if you write it as zip(subjects,grades)
 gradebook.append(("visual arts", 93))
 
 print(list(gradebook))
+
+print(list(range(2,14,4))) # start at 2 , add 4 , this gives us 6 , add 4 to that giving us 10. 14 doesn't show as lists start@zero.
