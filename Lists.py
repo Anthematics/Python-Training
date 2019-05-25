@@ -53,3 +53,11 @@ print(len(employees))
 print(employees[5])
 
 # messing with length attributes.
+
+# SLICING
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+beginning = suitcase[0:4]
+middle = suitcase [2:4]
+print(beginning,middle)
