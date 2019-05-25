@@ -43,3 +43,13 @@ gradebook.append(("visual arts", 93))
 print(list(gradebook))
 
 print(list(range(2,14,4))) # start at 2 , add 4 , this gives us 6 , add 4 to that giving us 10. 14 doesn't show as lists start@zero.
+
+employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
+
+index4 = employees[4]
+
+print(index4)
+print(len(employees))
+print(employees[5])
+
+# messing with length attributes.
