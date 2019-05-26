@@ -61,3 +61,17 @@ suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
 beginning = suitcase[0:4]
 middle = suitcase [2:4]
 print(beginning,middle)
+
+# you can slice negative indexes as well as positive ones
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+
+start = suitcase[0:3]
+print(start)
+
+# above prints 'shirt' , 'shirt' , 'pants'
+
+end = suitcase[-2:]
+print(end)
+# above prints 'pajamas', 'books'
