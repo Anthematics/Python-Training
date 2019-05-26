@@ -106,3 +106,14 @@ print(cities)
 
 print(sorted_cities,sorted_addresses) 
 # why does cities sort and print properly . but sorted cities doesn't?
+
+# A second way of sorting a list is to use sorted. sorted is different from .sort() in several ways:
+# It comes before a list, instead of after.
+# It generates a new list.
+# The sorted method seems better for functional programming purposes.
+
+games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+
+games_sorted = sorted(games)
+print(games_sorted)
+print (games)
