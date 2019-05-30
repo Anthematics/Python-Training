@@ -159,3 +159,8 @@ print(three_cheapest)
 
 num_two_dollar_slices = prices.count(2)
 print(num_two_dollar_slices)
+
+list = [1, 2, 3, 4, 5, 6]
+
+list1 = list[:3] # [1, 2, 3]
+list2 = list[4:] # [5, 6]
