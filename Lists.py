@@ -164,3 +164,9 @@ list = [1, 2, 3, 4, 5, 6]
 
 list1 = list[:3] # [1, 2, 3]
 list2 = list[4:] # [5, 6]
+
+def more_than_n(lst,item,n):
+  if lst.count(item) > n: 
+  	return True 
+  else:
+    return False
