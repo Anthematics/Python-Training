@@ -170,3 +170,9 @@ def more_than_n(lst,item,n):
   	return True 
   else:
     return False
+
+def more_frequent_item(lst,item1,item2):
+  if lst.count(item1) >= lst.count(item2):
+    return item1
+  else:
+    return item2
